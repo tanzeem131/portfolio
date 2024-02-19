@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #1a1a1a, #000000);
+  background: linear-gradient(to right, #1a1a1a, #000000);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* background-image: radial-gradient(#ff8a00, #e52e71); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/* .deatils img {
+
+} */
+.title {
+  font-family: 'Protest Revolution', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  font-size: 4rem;
+  text-transform: none;
+}
+.iama {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: none;
+}
+
+.text {
+  line-height: 0;
+}
