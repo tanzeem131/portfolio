@@ -29,10 +29,24 @@
           <img src="img/aero.gif" /><br />
           <h1 class="title text">Tanzeem</h1>
           <br />
-          <h1 class="iama text">I am</h1>
+          <h1 class="iama text">I am <span class="auto-type"></span></h1>
         </div>
       </div>
     </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      let typed = new Typed('.auto-type', {
+        strings: [
+          'a frontend developer',
+          'a react developer',
+          'a proud engineer',
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+    <script src="canvas.js"></script>
   </body>
-  <script src="canvas.js"></script>
 </html>

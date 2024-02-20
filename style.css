@@ -10,16 +10,10 @@
   box-sizing: border-box;
 }
 .headpluscanvas {
-  /* background-image: url(img/birds.gif); */
   background-image: radial-gradient(#ff8a00, #e52e71);
 }
 
-/* body {
-  font-family: sans-serif;
-} */
-
 .container {
-  /* background-image: radial-gradient(#ff8a00, #e52e71); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +27,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+  cursor: default;
 }
 
 .title {
@@ -42,7 +37,23 @@
   color: white;
   font-size: 4rem;
   text-transform: none;
+
+  background: conic-gradient(from 135deg at top, #fff 90deg, #ffea00 0),
+    conic-gradient(from -45deg at bottom, #fff 90deg, #ffea00 0),
+    conic-gradient(from 135deg at top, #ffea00 90deg, #0000 0),
+    conic-gradient(from -45deg at bottom, #ffea00 90deg, #0000 0);
+  -webkit-background-clip: text, text, padding-box, padding-box;
+  background-clip: text, text, padding-box, padding-box;
+  background-size: 230% 50%;
+  background-position: top right, bottom right;
+  background-repeat: no-repeat;
+  transition: 1s linear;
 }
+
+.title:hover {
+  background-position: top left, bottom left;
+}
+
 .iama {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -50,6 +61,10 @@
   color: white;
   font-size: 2.5rem;
   text-transform: none;
+}
+
+span {
+  color: #ffea00;
 }
 
 .text {

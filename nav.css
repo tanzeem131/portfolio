@@ -18,6 +18,13 @@ label.logo {
   font-weight: 450;
   line-height: 80px;
 }
+label:hover {
+  color: #ffea00;
+  font-weight: 600;
+  background: transparent;
+  box-shadow: 0 0 0px #ffea00;
+  text-shadow: 0 0 5px #ffea00;
+}
 
 nav ul {
   float: right;
@@ -39,7 +46,7 @@ nav ul li a {
 
 a.active,
 a:hover {
-  color: #ff8a00;
+  color: #ffea00;
   font-weight: 450;
   background: transparent;
 }
