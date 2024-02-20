@@ -2,18 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  background: #000000;
-  background: -webkit-linear-gradient(to right, #1a1a1a, #000000);
-  background: linear-gradient(to right, #1a1a1a, #000000);
-}
-
-body {
+* {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
+.headpluscanvas {
+  /* background-image: url(img/birds.gif); */
+  background-image: radial-gradient(#ff8a00, #e52e71);
+}
+
+/* body {
+  font-family: sans-serif;
+} */
 
 .container {
   /* background-image: radial-gradient(#ff8a00, #e52e71); */
@@ -21,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
 }
 
 .details {
@@ -31,17 +35,6 @@ body {
   position: absolute;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-}
-
-/* .deatils img {
-
-} */
 .title {
   font-family: 'Protest Revolution', sans-serif;
   font-style: normal;
@@ -53,12 +46,12 @@ body {
 .iama {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
   color: white;
   font-size: 2.5rem;
   text-transform: none;
 }
 
 .text {
-  line-height: 0;
+  line-height: 4rem;
 }
