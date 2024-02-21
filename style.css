@@ -8,7 +8,14 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
+  font-family: 'Nunito', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 .headpluscanvas {
   background-image: radial-gradient(#ff8a00, #e52e71);
 }
@@ -37,6 +44,7 @@
   color: white;
   font-size: 4rem;
   text-transform: none;
+  overflow-y: hidden;
 
   background: conic-gradient(from 135deg at top, #fff 90deg, #ffea00 0),
     conic-gradient(from -45deg at bottom, #fff 90deg, #ffea00 0),
@@ -63,7 +71,7 @@
   text-transform: none;
 }
 
-span {
+.auto-type {
   color: #ffea00;
 }
 

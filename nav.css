@@ -2,34 +2,30 @@
 
 nav {
   background: transparent;
-  height: 80px;
+  height: 120px;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 450;
+  overflow-y: hidden;
+}
 
-  /* background-image: radial-gradient(#e52e71, #ff8a00); */
-}
-label.logo {
-  color: black;
-  font-size: 35px;
-  padding: 0 80px;
+nav label.logo {
+  padding: 0 40px;
   margin-left: 40px;
-  font-weight: 450;
   line-height: 80px;
+  max-width: 200px;
 }
-label:hover {
-  color: #ffea00;
-  font-weight: 600;
-  background: transparent;
-  box-shadow: 0 0 0px #ffea00;
-  text-shadow: 0 0 5px #ffea00;
+
+.logo img {
+  filter: drop-shadow(10px 10px 4px rgb(0, 0, 0));
 }
 
 nav ul {
   float: right;
   display: flex;
   margin-right: 30px;
+  gap: 40px;
 }
 
 nav ul li {
@@ -40,13 +36,14 @@ nav ul li {
 
 nav ul li a {
   color: black;
+  font-weight: 600;
   text-transform: uppercase;
-  /* font-size: 17px; */
+  font-size: 25px;
 }
 
 a.active,
 a:hover {
   color: #ffea00;
-  font-weight: 450;
+  font-weight: 700;
   background: transparent;
 }

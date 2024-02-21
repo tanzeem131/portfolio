@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="about.css" />
   </head>
   <body>
     <section class="headpluscanvas">
       <nav>
-        <label class="logo">Portfolio</label>
+        <label class="logo"><img src="img/T_LOGO.png" alt="logo" /></label>
         <ul>
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -33,8 +34,47 @@
         </div>
       </div>
     </section>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <section class="about-me-section" id="about-me-section">
+      <div class="container-section">
+        <div class="about-me-container">
+          <div class="aboutTanzeem">
+            About <br />
+            Me
+          </div>
+          <div class="about-me-img-paragraph-container">
+            <div class="about-me-image">
+              <div class="back-div"></div>
+              <div class="black-image">
+                <img src="img/main_image.jpg" alt="black img" />
+              </div>
+              <div class="main-image">
+                <img src="img/main_image.jpg" alt="main image" />
+              </div>
+            </div>
+            <div class="about-me-content">
+              <div class="paragraph">
+                <p>
+                  My name is Tanzeem, I'm a final year Bachelor of Technology
+                  Computer Science student at Indian Institute of Information
+                  Technology Dharwad [IIIT-DWD]. My dive into frontend
+                  development began in college. Joining a group project in my
+                  third semester as a frontend developer not only enhanced my
+                  design skills but also sparked a newfound passion for me.
+                </p>
+                <br />
+                <p>
+                  I am fluent in English . I am deeply interested in designing
+                  and coding beautiful websites. Sometimes, I binge-watch web
+                  series, particularly those based on documentaries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       let typed = new Typed('.auto-type', {
         strings: [

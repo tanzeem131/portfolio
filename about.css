@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+.about-me-section {
+  /* background-color: #002733; */
+  background-color: #f6e4d1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.about-me-section img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-object-fit: cover;
+}
+
+.container-section {
+  max-width: 1300px;
+  margin: 0px auto 0px auto;
+  padding: 0px 40px;
+}
+
+.about-me-container {
+  position: relative;
+}
+
+.aboutTanzeem {
+  font-size: 55px;
+  font-weight: 700;
+  color: #ff8a00;
+}
+
+.about-me-img-paragraph-container {
+  margin-top: -15px;
+  margin-left: 150px;
+  /* left: 100px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me-img-paragraph-container .about-me-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.about-me-img-paragraph-container .about-me-image .back-div {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 90%;
+  background-color: #d2baa1;
+}
+
+.about-me-img-paragraph-container .about-me-image .black-image {
+  /* z-index: -2; */
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  height: 90%;
+  width: 80%;
+  filter: sepia(100%);
+}
+
+.about-me-img-paragraph-container .about-me-image .black-image img {
+  height: 100%;
+}
+
+.about-me-img-paragraph-container .about-me-image .main-image {
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  box-shadow: #000000 0px 20px 40px 0px;
+  transition: all 0.2s ease-out;
+}
+
+.main-image:hover {
+  transform-origin: top center;
+  transform: scale(1.5);
+  border-radius: 25px;
+}
+
+.main-image img {
+  transform-origin: center center;
+  transform: scale(2);
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-object-fit: cover;
+  transition: all 0.2s ease-out;
+}
+
+.about-me-img-paragraph-container .about-me-image .main-image img:hover {
+  transform: scale(1);
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 40%;
+}
+
+.paragraph {
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
