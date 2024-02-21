@@ -32,7 +32,6 @@
 .about-me-img-paragraph-container {
   margin-top: -15px;
   margin-left: 150px;
-  /* left: 100px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +51,6 @@
 }
 
 .about-me-img-paragraph-container .about-me-image .black-image {
-  /* z-index: -2; */
   position: absolute;
   left: 5%;
   bottom: 5%;
@@ -73,6 +71,8 @@
   left: 30%;
   top: 10%;
   box-shadow: #000000 0px 20px 40px 0px;
+  -webkit-box-shadow: #000000 0px 20px 40px 0px;
+  -moz-box-shadow: #000000 0px 20px 40px 0px;
   transition: all 0.2s ease-out;
 }
 
