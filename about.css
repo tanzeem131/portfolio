@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 .about-me-section {
-  /* background-color: #002733; */
   background-color: #f6e4d1;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -103,8 +102,13 @@
   flex: 0 0 40%;
 }
 
-.paragraph {
+.about-me-content .paragraph {
   font-weight: 600;
   font-size: 17px;
   color: black;
+  border-radius: 25px;
+  padding: 10px 10px 10px;
+  -webkit-box-shadow: 0 10px 6px -6px #d2baa1;
+  -moz-box-shadow: 0 10px 6px -6px #d2baa1;
+  box-shadow: 0 10px 6px -6px #d2baa1;
 }
