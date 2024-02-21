@@ -1,0 +1,39 @@
+.skills {
+  background-color: #f6e4d1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  /* position: relative; */
+}
+
+.skills img {
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.using-now {
+  display: flex;
+  flex-direction: row;
+}
+.learning {
+  display: flex;
+  flex-direction: row;
+}
+.other-skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-title {
+  font-size: 55px;
+  font-weight: 700;
+  color: #ff8a00;
+}
+
+.skills .img-div {
+  height: 200px;
+  width: 100%;
+}
