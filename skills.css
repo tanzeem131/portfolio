@@ -37,13 +37,13 @@
 }
 
 .skills .img-div {
-  height: 150px;
+  height: 100px;
   width: 100px;
 }
 
 .skills .img-div img {
   width: 100px;
-  height: 100px;
+  height: 80px;
   object-fit: scale-down;
 }
 
