@@ -4,27 +4,7 @@
   padding-bottom: 100px;
   padding-left: 150px;
   padding-right: 150px;
-  /* position: relative; */
-}
-
-.skills img {
-}
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-}
-.using-now {
-  display: flex;
-  flex-direction: row;
-}
-.learning {
-  display: flex;
-  flex-direction: row;
-}
-.other-skill {
-  display: flex;
-  flex-direction: row;
+  position: relative;
 }
 
 .skill-title {
@@ -33,7 +13,42 @@
   color: #ff8a00;
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* .logo-with-name {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+} */
+
+.logo-with-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 50px;
+}
+
 .skills .img-div {
-  height: 200px;
-  width: 100%;
+  height: 150px;
+  width: 100px;
+}
+
+.skills .img-div img {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+}
+
+.skills .logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
