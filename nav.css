@@ -14,9 +14,9 @@ nav label.logo {
   max-width: 200px;
 }
 
-.logo img {
+/* .logo img {
   filter: drop-shadow(10px 10px 4px rgb(0, 0, 0));
-}
+} */
 
 nav ul {
   float: right;
