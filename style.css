@@ -47,7 +47,6 @@ html {
   color: white;
   font-size: 4rem;
   text-transform: none;
-  overflow-y: hidden;
 
   background: conic-gradient(from 135deg at top, #fff 90deg, #ffea00 0),
     conic-gradient(from -45deg at bottom, #fff 90deg, #ffea00 0),
