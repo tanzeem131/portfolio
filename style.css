@@ -14,12 +14,15 @@
   /* font-family: 'Nunito', sans-serif; */
   font-family: 'Montserrat', sans-serif;
 }
+body {
+  background-color: #f6e4d1;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-.headpluscanvas {
+.hero-section {
   background-image: radial-gradient(#ff8a00, #e52e71);
 }
 

@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio:Tanzeem</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio: Tanzeem</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="canvas.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="skills.css" />
     <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script defer src="canvas.js"></script>
+    <script defer src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script defer src="typed.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          emailjs.init({
+            publicKey: "csyTy4SseTf-328VA",
+          });
+      })();
+  </script>
+  <script type="text/javascript" src="contact_email.js"></script>
+  
   </head>
   <body>
-    <section class="headpluscanvas">
+    <section class="hero-section" id="hero-section">
       <nav>
         <label class="logo"><img src="img/logo.svg" alt="logo" /></label>
         <ul>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="active"><a href="#hero-section">Home</a></li>
+          <li><a href="#about-me-section">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -77,7 +91,7 @@
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="skills-container">
         <div class="skill-title">Skills</div>
         <div class="flex-div">
@@ -250,7 +264,7 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="projects-title">Projects</div>
       <div class="projects-container">
         <div class="picture-with-name">
@@ -307,18 +321,44 @@
         </div>
       </div>
     </section>
-    <section class="contact-me">
+    <section class="contact" id="contact">
+      <div class="contact-box">
+        <div class="contact-links">
+          <h2>CONTACT</h2>
+          <div class="links">
+            <div class="link">
+              <a href="https://twitter.com/Tanzeem_Dev"><img src="img/twitter.svg" alt="Twitter"></a>
+            </div>
+            <div class="link">
+              <a href="https://github.com/tanzeem131"><img src="img/github.svg" alt="github"></a>
+            </div>
+            <div class="link">
+              <a href="www.linkedin.com/in/mr-tanzeem"><img src="img/linkedin.svg" alt="linkedin"></a>
+            </div>
+            <div class="link">
+              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dev.tanzeem@gmail.com"><img src="img/email.svg" alt="email"></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form id="contact-form">
+            <div class="form-item">
+              <input type="text" name="sender" required>
+              <label>Name:</label>
+            </div>
+            <div class="form-item">
+              <input type="text" name="email" required>
+              <label>Email:</label>
+            </div>
+            <div class="form-item">
+              <textarea name="message" required></textarea>
+              <label>Message:</label>
+            </div>
+            <button class="submit-btn">Send</button>  
+          </form>
+          <p id = "output"> </p>
+        </div>
+      </div>
     </section>
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      let typed = new Typed('.auto-type', {
-        strings: ['a frontend developer', 'a UI designer', 'a proud engineer'],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true,
-      });
-    </script>
-    <script src="canvas.js"></script>
   </body>
 </html>
