@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "about": "^2.0.1",
+    "canvas": "^2.11.2",
+    "contact": "^0.3.2",
+    "nav": "^0.0.2",
+    "projects": "^1.6.1",
+    "skills": "^1.0.0",
+    "style": "^0.0.3"
+  }
+}
