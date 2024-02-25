@@ -1,9 +1,9 @@
 nav {
   background: transparent;
-  height: 120px;
+  height: 100px;
   width: 100%;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 500;
   overflow-y: hidden;
 }
 
@@ -42,4 +42,12 @@ nav ul li a:hover {
   color: #ffea00;
   font-weight: 700;
   background: transparent;
+}
+
+.nav.sticky {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(210, 186, 161, 0.5);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
