@@ -10,7 +10,7 @@
   -webkit-object-fit: cover;
 }
 
-.container-section {
+.about-me-section .container-section {
   max-width: 1300px;
   margin: 0px auto 0px auto;
   padding: 0px 40px;
