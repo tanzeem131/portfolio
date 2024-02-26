@@ -4,7 +4,7 @@
   width: 100%;
   font-style: normal;
   font-weight: 500;
-  /* overflow-y: hidden; */
+
   position: absolute;
   z-index: 1;
   background-color: rgba(210, 186, 161, 0.5);
