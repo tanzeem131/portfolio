@@ -1,50 +1,58 @@
-nav {
-  background: transparent;
+.nav {
+  /* background: transparent; */
   height: 100px;
   width: 100%;
   font-style: normal;
   font-weight: 500;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(210, 186, 161, 0.5);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
-nav label.logo {
+.nav label .logo {
   padding: 0 40px;
   margin-left: 40px;
-  line-height: 80px;
+  line-height: 100px;
   max-width: 200px;
+}
+
+.nav > .nav-header {
+  display: inline;
 }
 
 nav .logo img {
   filter: drop-shadow(1px 4px 1px #ff8a00);
 }
 
-nav ul {
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
   float: right;
-  display: flex;
-  margin-right: 30px;
-  gap: 40px;
+  padding-top: 20px;
 }
 
-nav ul li {
+.nav > .nav-links > a {
   display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a {
+  padding: 13px 10px 13px 10px;
   color: black;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 25px;
 }
 
-nav ul li a:hover {
-  color: #000000;
+.nav > .nav-links > a:hover {
+  color: #ff8a00;
   font-weight: 800;
   background: transparent;
 }
 
-nav #nav-check {
+.nav > #nav-check {
   display: none;
 }
 
@@ -56,38 +64,42 @@ nav #nav-check {
   backdrop-filter: blur(8px);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 790px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
+    background-color: #ff8a00;
     right: 0px;
-    top: 0px;
+    top: 35px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
-    padding: 13px;
+    padding: 15px;
   }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #ff8a00;
   }
   .nav > .nav-btn > label > span {
     display: block;
-    width: 25px;
+    width: 100%;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #f6e4d1;
   }
   .nav > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
-    height: 0px;
+    /* background-color: #f6e4d1; */
+    background-color: rgba(210, 186, 161, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    height: 100vh;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 100px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -99,6 +111,7 @@ nav #nav-check {
   }
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
-    overflow-y: auto;
+    /* overflow-y: auto; */
+    z-index: 1;
   }
 }
