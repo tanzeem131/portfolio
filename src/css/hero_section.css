@@ -20,12 +20,70 @@
   position: absolute;
   cursor: default;
 }
+.rocket-img img {
+  height: 450px;
+  width: 600px;
+}
+.rocket-img {
+  position: absolute;
+  margin-right: 70%;
+  /* transition: 3s ease-in; */
+
+  animation-name: myAnimationRocket;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform: scale(0.5);
+}
+
+@keyframes myAnimationRocket {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+/* .rocket-img img {
+  height: 450px;
+  width: 600px;
+}
+
+.rocket-img > div {
+  width: 92px;
+  height: 215px;
+  transition: 2s ease-in-out;
+} */
+
+/* hover final state */
+
+/* .container:hover > div.rocket-img {
+  transform: translate(-400px, -600px);
+}
+.container:hover > div.rocket-img > div {
+  transform: rotate(-70deg);
+} */
+
 .parachute-img {
   position: absolute;
-  margin-left: 10%;
-  height: 1100px;
-  width: 80px;
+  margin-right: 0%;
+  margin-top: 10%;
+  animation-name: myAnimationParachute;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform: scale(0.9);
 }
+
+@keyframes myAnimationParachute {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
 .title {
   font-family: 'Protest Revolution', sans-serif;
   font-style: normal;

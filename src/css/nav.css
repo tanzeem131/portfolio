@@ -1,10 +1,7 @@
 .nav {
-  /* background: transparent; */
-  height: 100px;
+  height: 80px;
   width: 100%;
   font-style: normal;
-  font-weight: 500;
-
   position: absolute;
   z-index: 1;
   background-color: rgba(210, 186, 161, 0.5);
@@ -12,19 +9,14 @@
   backdrop-filter: blur(8px);
 }
 
-.nav label .logo {
-  padding: 0 40px;
-  margin-left: 40px;
-  line-height: 100px;
-  max-width: 200px;
-}
-
 .nav > .nav-header {
   display: inline;
+  position: absolute;
+  padding-top: 4px;
 }
 
 nav .logo img {
-  filter: drop-shadow(1px 4px 1px #ff8a00);
+  filter: drop-shadow(1px 4px 1px #302213);
 }
 
 .nav > .nav-btn {
@@ -34,7 +26,7 @@ nav .logo img {
 .nav > .nav-links {
   display: inline;
   float: right;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .nav > .nav-links > a {
