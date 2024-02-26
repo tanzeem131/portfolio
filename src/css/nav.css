@@ -50,6 +50,8 @@ nav .logo img {
   color: #ff8a00;
   font-weight: 800;
   background: transparent;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .nav > #nav-check {

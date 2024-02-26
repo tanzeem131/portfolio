@@ -1,5 +1,4 @@
 .hero-section {
-  /* background-image: radial-gradient(#ff8a00, #e52e71); */
   overflow: hidden;
 }
 
@@ -21,19 +20,27 @@
   position: absolute;
   cursor: default;
 }
-
+.parachute-img {
+  position: absolute;
+  margin-left: 10%;
+  height: 1100px;
+  width: 80px;
+}
 .title {
   font-family: 'Protest Revolution', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: white;
-  font-size: 4rem;
+  font-size: 70px;
   text-transform: none;
 
-  background: conic-gradient(from 135deg at top, #fff 90deg, #ffea00 0),
-    conic-gradient(from -45deg at bottom, #fff 90deg, #ffea00 0),
-    conic-gradient(from 135deg at top, #ffea00 90deg, #0000 0),
-    conic-gradient(from -45deg at bottom, #ffea00 90deg, #0000 0);
+  text-shadow: -1px -1px 0 #59ff00, 1px -1px 0 #59ff00, -1px 1px 0 #59ff00,
+    1px 1px 0 #59ff00;
+
+  background: conic-gradient(from 135deg at top, #fff 90deg, #59ff00 0),
+    conic-gradient(from -45deg at bottom, #fff 90deg, #59ff00 0),
+    conic-gradient(from 135deg at top, #59ff00 90deg, #0000 0),
+    conic-gradient(from -45deg at bottom, #59ff00 90deg, #0000 0);
   -webkit-background-clip: text, text, padding-box, padding-box;
   background-clip: text, text, padding-box, padding-box;
   background-size: 230% 50%;
@@ -50,14 +57,17 @@
   font-style: normal;
   font-weight: 450;
   color: white;
-  font-size: 2.5rem;
+  font-size: 40px;
   text-transform: none;
 }
 
 .auto-type {
-  color: #ffea00;
+  color: #59ff00;
+  font-weight: 800;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .text {
-  line-height: 4rem;
+  line-height: 50px;
 }
