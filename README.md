@@ -4,6 +4,8 @@
 - HTML
 - CSS
 - Vanilla JavaScript
+- typed.js library
+- emailjs(backend as a service)
 
 
 <img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/herosection_preview.gif" height='500px'  width='1000px' ></img>
