@@ -20,7 +20,7 @@
   position: relative;
 }
 
-.aboutTanzeem {
+.aboutMe {
   font-size: 55px;
   font-weight: 700;
   color: #ff8a00;
@@ -88,7 +88,7 @@
   transition: all 0.2s ease-out;
 }
 
-.about-me-img-paragraph-container .about-me-image .main-image img:hover {
+.main-image img:hover {
   transform: scale(1);
 }
 
@@ -103,4 +103,331 @@
   font-weight: 600;
   font-size: 20px;
   color: black;
+}
+
+@media (width <= 430px) {
+  .about-me-section {
+    padding-block: 2px;
+    padding-inline: 0px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding-inline: 0px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 10px;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 280;
+    font-size: 10px;
+    color: black;
+  }
+}
+
+@media (430px < width <= 500px) {
+  .about-me-section {
+    padding-block: 10px;
+    padding-inline: 10px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 35px;
+    font-weight: 550;
+    text-align: center;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 280px;
+    height: 280px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 0px;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+  }
+}
+
+@media (500px < width <= 600px) {
+  .about-me-section {
+    padding-block: 10px;
+    padding-inline: 10px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 40%;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 300;
+    font-size: 10px;
+    color: black;
+  }
+}
+
+@media (600px < width <= 750px) {
+  .about-me-section {
+    padding-block: 10px;
+    padding-inline: 10px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 35px;
+    font-weight: 550;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 40%;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 350;
+    font-size: 13px;
+    color: black;
+  }
+}
+
+@media (750px <width <= 800px) {
+  .about-me-section {
+    padding-block: 10px;
+    padding-inline: 10px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 350px;
+    height: 350px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 40%;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+  }
+}
+
+@media (800px < width <= 900px) {
+  .about-me-section {
+    padding-block: 10px;
+    padding-inline: 10px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 45px;
+    font-weight: 640;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 370px;
+    height: 370px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 45%;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 420;
+    font-size: 17px;
+    color: black;
+  }
+}
+
+@media (900px < width <= 1100px) {
+  .about-me-section {
+    padding-block: 10px;
+    padding-inline: 10px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 50px;
+    font-weight: 680;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 390px;
+    height: 390px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 50%;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 480;
+    font-size: 18px;
+    color: black;
+  }
+}
+
+@media (1100px < width <= 1200px) {
+  .about-me-section {
+    padding-block: 30px;
+    padding-inline: 30px;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .about-me-img-paragraph-container {
+    margin-top: -15px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me-img-paragraph-container .about-me-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 50%;
+  }
+
+  .about-me-content .paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+  }
 }
