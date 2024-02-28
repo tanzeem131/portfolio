@@ -64,7 +64,7 @@ nav .logo img {
     position: absolute;
     background-color: #ff8a00;
     right: 0px;
-    top: 35px;
+    top: 20px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -93,7 +93,7 @@ nav .logo img {
     height: 100vh;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 100px;
+    top: 80px;
     left: 0px;
   }
   .nav > .nav-links > a {
