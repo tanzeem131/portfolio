@@ -26,7 +26,6 @@ nav .logo img {
 .nav > .nav-links {
   display: inline;
   float: right;
-  padding-top: 10px;
 }
 
 .nav > .nav-links > a {
@@ -69,8 +68,8 @@ nav .logo img {
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
-    height: 50px;
-    padding: 15px;
+    height: 40px;
+    padding: 10px;
   }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {

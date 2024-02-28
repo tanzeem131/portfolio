@@ -1,5 +1,6 @@
 .hero-section {
   overflow: hidden;
+  background-image: radial-gradient(#ff8a00, #e52e71);
 }
 
 .container {
@@ -8,10 +9,10 @@
   align-items: center;
   position: relative;
   width: 100%;
-  background-image: radial-gradient(#ff8a00, #e52e71);
+  /* background-image: radial-gradient(#ff8a00, #e52e71); */
   overflow: hidden;
 }
-.canvasbg {
+.main {
   width: 100%;
   height: 100vh;
 }

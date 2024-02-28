@@ -20,12 +20,6 @@
   gap: 50px;
 }
 
-/* .logo-with-name {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-} */
-
 .logo-with-name {
   display: flex;
   justify-content: center;
@@ -50,4 +44,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 790px) {
+  .skills {
+    padding-block: 50px;
+    padding-inline: 5px;
+    position: relative;
+  }
+
+  .skill-title {
+    font-size: 30px;
+    font-weight: 530;
+    color: #ff8a00;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .logo-with-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+  }
 }
