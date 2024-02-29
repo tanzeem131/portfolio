@@ -2,6 +2,8 @@
 
 ## Technologies Used
 - HTML
+- HTML5 canvas
+- Responsive design
 - CSS
 - Vanilla JavaScript
 - typed.js library
