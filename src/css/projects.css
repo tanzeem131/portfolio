@@ -1,5 +1,6 @@
 .projects {
   padding-inline: 100px;
+  padding-block: 100px;
 }
 
 .projects-title {
@@ -7,11 +8,7 @@
   font-weight: 700;
   color: #ff8a00;
   text-align: center;
-  margin-bottom: 100px;
-}
-
-.projects-container {
-  padding-block: 100px;
+  margin-bottom: 50px;
 }
 
 .projects .projects-img-div {
@@ -89,6 +86,6 @@
     font-weight: 530;
     color: #ff8a00;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
