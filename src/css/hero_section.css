@@ -27,26 +27,6 @@
   height: 100vh;
 }
 
-.parachute-img {
-  position: absolute;
-  margin-right: 0%;
-  margin-top: 10%;
-  animation-name: myAnimationParachute;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  transform: scale(0.9);
-}
-
-@keyframes myAnimationParachute {
-  from {
-    left: 0;
-  }
-  to {
-    left: 100%;
-  }
-}
-
 .title {
   font-family: 'Protest Revolution', sans-serif;
   font-style: normal;
@@ -80,6 +60,25 @@
   color: white;
   font-size: 40px;
   text-transform: none;
+}
+
+.details a {
+  border: 2px solid #59ff00;
+  color: #59ff00;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 10px;
+}
+
+.details a:hover {
+  background-color: #59ff00;
+  color: #fff;
 }
 
 .auto-type {
