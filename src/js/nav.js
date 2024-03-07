@@ -4,7 +4,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const nav = document.querySelector('.nav');
 const headerSection = document.querySelector('.container');
-
 const initialCoordinates = headerSection.getBoundingClientRect();
 
 window.addEventListener('scroll', function (e) {
@@ -21,7 +20,6 @@ tl.from('.logo', {
   delay: 0.2,
   opacity: 0,
   stagger: 0.2,
-  rotate: 100,
 });
 tl.from('#nav-home', {
   y: -20,
