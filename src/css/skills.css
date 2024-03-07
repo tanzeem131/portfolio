@@ -81,3 +81,9 @@
     width: 80px;
   }
 }
+
+@media (width<=500px) {
+  .flex-div h1 {
+    font-size: 20px;
+  }
+}

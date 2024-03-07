@@ -75,6 +75,20 @@
   row-gap: 20px;
 }
 
+@media (width <= 500px) {
+  .projects .projects-img-div {
+    height: 270px;
+    width: 350px;
+    position: relative;
+  }
+  .projects .projects-img-div img {
+    height: 270px;
+    width: 350px;
+    object-fit: scale-down;
+    filter: drop-shadow(10px 10px 4px rgb(210, 186, 161));
+  }
+}
+
 @media (max-width: 790px) {
   .projects {
     padding-inline: 50px;
@@ -83,7 +97,7 @@
 
   .projects-title {
     font-size: 30px;
-    font-weight: 530;
+    font-weight: 500;
     color: #ff8a00;
     text-align: center;
     margin-bottom: 50px;
