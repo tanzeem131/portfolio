@@ -7,6 +7,7 @@
 - CSS
 - Vanilla JavaScript
 - typed.js library
+- GSAP
 - emailjs(backend as a service)
 
 
