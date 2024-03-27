@@ -12,51 +12,6 @@ window.addEventListener('scroll', function (e) {
   else nav.classList.remove('sticky');
 });
 
-var tl = gsap.timeline();
-
-tl.from('.logo', {
-  y: 50,
-  duration: 0.2,
-  delay: 0.2,
-  opacity: 0,
-  stagger: 0.2,
-});
-tl.from('#nav-home', {
-  y: -20,
-  duration: 0.2,
-  delay: 0.2,
-  opacity: 0,
-  stagger: 0.2,
-});
-tl.from('#nav-about', {
-  y: 50,
-  duration: 0.2,
-  delay: 0.2,
-  opacity: 0,
-  stagger: 0.2,
-});
-tl.from('#nav-skills', {
-  y: -20,
-  duration: 0.2,
-  delay: 0.2,
-  opacity: 0,
-  stagger: 0.2,
-});
-tl.from('#nav-projects', {
-  y: 50,
-  duration: 0.2,
-  delay: 0.2,
-  opacity: 0,
-  stagger: 0.2,
-});
-tl.from('#nav-contact', {
-  y: -20,
-  duration: 0.2,
-  delay: 0.2,
-  opacity: 0,
-  stagger: 0.2,
-});
-
 gsap.to('.rotating-img', { rotation: 1440, duration: 360 });
 gsap.to('.rotating-img', {
   scrollTrigger: {
