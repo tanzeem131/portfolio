@@ -1,6 +1,7 @@
 # [PORTFOLIO](https://tanzeem131.github.io/portfolio/)
 
 ## Technologies Used
+
 - HTML
 - HTML5 canvas
 - Responsive design
@@ -10,13 +11,11 @@
 - GSAP
 - emailjs(backend as a service)
 
-
-<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/herosection_preview.gif" height='500px'  width='1000px' ></img>
-<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/preview_img.png" ></img>
-<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/preview_skills.png" ></img>
-<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/preview_projects.png" ></img>
-<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/preview_contact.png" ></img>
-
+<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/p1.png" ></img>
+<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/p2.png" ></img>
+<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/p3.png" ></img>
+<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/p4.png" ></img>
+<img src="https://github.com/tanzeem131/portfolio/blob/main/src/img/p5.png" ></img>
 
 ## Contribution
 
