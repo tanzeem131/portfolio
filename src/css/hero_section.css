@@ -9,7 +9,6 @@
   align-items: center;
   position: relative;
   width: 100%;
-  /* background-image: radial-gradient(#ff8a00, #e52e71); */
   overflow: hidden;
 }
 
@@ -28,7 +27,7 @@
 }
 
 .title {
-  font-family: 'Protest Revolution', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: white;
@@ -56,6 +55,7 @@
 
 .iama {
   font-style: normal;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 450;
   color: white;
   font-size: 40px;
@@ -64,7 +64,7 @@
 
 .details a {
   border: 2px solid #59ff00;
-  color: #59ff00;
+  color: white;
   background-color: transparent;
   padding: 10px 20px;
   margin: 10px;
@@ -78,11 +78,13 @@
 
 .details a:hover {
   background-color: #59ff00;
-  color: #e52e71;
+  color: #ff8a00;
 }
 
 .auto-type {
   color: #59ff00;
+  font-family: 'Cinzel', sans-serif;
+  font-style: normal;
   font-weight: 800;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -119,7 +121,7 @@
   }
 
   .title {
-    font-family: 'Protest Revolution', sans-serif;
+    font-family: 'Cinzel', sans-serif;
     font-style: normal;
     font-weight: 600;
     color: white;
