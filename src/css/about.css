@@ -149,7 +149,7 @@
   }
 }
 
-@media (430px < width <= 500px) {
+@media (400px < width <= 500px) {
   .about-me-section {
     padding-block: 10px;
     padding-inline: 10px;
@@ -187,7 +187,7 @@
 
   .about-me-content .paragraph {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
   }
 }
