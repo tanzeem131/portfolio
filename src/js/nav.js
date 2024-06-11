@@ -4,6 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const nav = document.querySelector('.nav');
 const headerSection = document.querySelector('.container');
+
 const initialCoordinates = headerSection.getBoundingClientRect();
 
 window.addEventListener('scroll', function (e) {
@@ -12,15 +13,27 @@ window.addEventListener('scroll', function (e) {
   else nav.classList.remove('sticky');
 });
 
-gsap.to('.rotating-img', { rotation: 1440, duration: 360 });
-gsap.to('.rotating-img', {
-  scrollTrigger: {
-    trigger: '.fixed-img',
-    scrub: 1,
-    start: 'center center',
-    end: '+=5000',
-  },
-  rotation: 1440,
-  duration: 1,
-  ease: 'none',
+let baseRotation = gsap.to(".rotating-img", {
+  rotation: 360,
+  duration: 2,
+  ease: "none",
+  repeat: -1
 });
+
+ScrollTrigger.create({
+  trigger: ".fixed-img",
+  start: "top top",
+  end: "+=5000",
+  scrub: 0.5,
+  onUpdate: (self) => {
+    const progress = self.progress;
+    const scale = 1 - progress * 0.9;
+    gsap.to(".rotating-img", {
+      scale: scale,
+      ease: "power1.inOut",
+      overwrite: "none"
+    });
+  }
+});
+
+
