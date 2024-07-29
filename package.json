@@ -10,12 +10,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "dotenv-webpack": "^8.1.0",
+    "parcel-bundler": "^1.12.5",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "about": "^2.0.1",
     "canvas": "^2.11.2",
     "contact": "^0.3.2",
+    "dotenv": "^16.4.5",
     "gsap": "^3.12.5",
     "nav": "^0.0.2",
     "projects": "^1.6.1",

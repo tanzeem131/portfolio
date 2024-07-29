@@ -21,29 +21,4 @@ html {
   scroll-behavior: smooth;
 }
 
-.fixed-img {
-  position: fixed;
-  top: 50vh;
-  right: 0;
-  z-index: 50;
-  transform: translate(50%, -50%);
-}
-.fixed-img img {
-  height: 100%;
-  width: 100%;
-}
-
-@media (width <= 700px) {
-  .fixed-img {
-    position: fixed;
-    top: 50vh;
-    right: 0;
-    z-index: 50;
-    transform: translate(80%, -50%);
-  }
-  .fixed-img img {
-    height: 50%;
-    width: 50%;
-  }
-}
 

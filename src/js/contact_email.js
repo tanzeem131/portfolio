@@ -1,6 +1,6 @@
 window.onload = function () {
   const form = document.getElementById('contact-form');
-
+  
   form.addEventListener('submit', function (event) {
     event.preventDefault();
     output.innerHTML += 'The form has been sent successfully!🎉🤩🎉';
@@ -15,3 +15,9 @@ window.onload = function () {
     form.reset();
   });
 };
+
+(function() {
+  emailjs.init({
+    publicKey: process.env.EMAILJS_PUBLIC_KEY,
+  });
+})();

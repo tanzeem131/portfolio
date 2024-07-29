@@ -2,8 +2,8 @@
   height: 80px;
   width: 100%;
   font-style: normal;
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 1000; 
 }
 
 .nav .nav-header {
@@ -97,6 +97,7 @@ nav .logo img {
     background-color: rgba(210, 186, 161, 0.5);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    visibility: hidden;
   }
   .nav .nav-links a {
     display: block;
@@ -105,9 +106,12 @@ nav .logo img {
   }
   .nav #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
+    opacity: 0;
+    visibility: hidden;
   }
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     opacity: 1;
+    visibility: visible;
   }
 }

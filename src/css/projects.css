@@ -76,6 +76,22 @@
 }
 
 @media (width <= 500px) {
+  .projects {
+    padding-inline: 0px;
+    padding-block: 0px;
+  }
+  .projects-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff8a00;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top:40px;
+  }
+  .picture-with-name {
+    column-gap: 0px;
+    row-gap: 0px;
+  }
   .projects .projects-img-div {
     height: 270px;
     width: 350px;
@@ -89,12 +105,11 @@
   }
 }
 
-@media (max-width: 790px) {
+@media (500px < width <= 790px) {
   .projects {
     padding-inline: 50px;
     padding-block: 50px;
   }
-
   .projects-title {
     font-size: 30px;
     font-weight: 500;

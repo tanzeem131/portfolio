@@ -7,8 +7,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      gtag('config', 'G-SDQ183YMS4');
+      gtag('config', process.env.GOOGLE_ANALYTICS_KEY);
     </script>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -29,21 +28,12 @@
     <script defer src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script defer src="src/js/typed.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-      (function() {
-          emailjs.init({
-            publicKey: "csyTy4SseTf-328VA",
-          });
-      })();
-    </script>
+    <script type="text/javascript"></script>
     <script type="text/javascript" src="src/js/contact_email.js"></script>
  
   </head>
 
   <body>
-    <div class="fixed-img">
-      <img class="rotating-img" src="src/img/rotating.png" alt="">
-    </div>
     <section class="hero-section" id="hero-section">
       <nav class="nav">
           <input type="checkbox" id="nav-check">
@@ -98,8 +88,8 @@
             <div class="about-me-content">
               <div class="paragraph">
                 <p>
-                  Hello👋 I'm Tanzeem <span><a href="https://iiitdwd.ac.in/">[IIIT-DWD]</a></span>, frontend developer. I try to write clean & reusable code following MVC architecture. Specialized in JavaScript and currently developing expertise in React. 
-                I am deeply interested in designing and coding beautiful websites. I always focus on production -level programming, so that our projects must be scalable in future. Let's collaborate 🤝to deliver innovative and user-friendly solutions for our projects. 
+                Hello👋 I'm Tanzeem <span><a href="https://iiitdwd.ac.in/">[IIIT-DWD]</a></span>, frontend developer. I try to write clean & reusable code following MVC architecture. Specialized in JavaScript & React.js. Currently developing expertise in nodejs. 
+                I am deeply interested in designing and coding web applications. I always focus on production -level programming, so that our projects must be scalable in future. Let's collaborate 🤝to deliver innovative and user-friendly solutions for your projects. 
                 </p>
               </div>
             </div>
@@ -324,7 +314,7 @@
     <section class="contact" id="contact">
       <div class="contact-box">
         <div class="contact-links">
-          <h2>CONTACT</h2>
+          <h2>Contact</h2>
           <div class="links">
             <div class="link">
               <a href="https://twitter.com/Tanzeem_Dev"><img src="src/img/twitter.svg" alt="Twitter"></a>
@@ -333,10 +323,10 @@
               <a href="https://github.com/tanzeem131"><img src="src/img/github.svg" alt="github"></a>
             </div>
             <div class="link">
-              <a href="https://www.linkedin.com/in/mr-tanzeem/"><img src="src/img/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.linkedin.com/in/mr-tanzeem/"><img src="src/img/linkedin.svg" alt="linkedin"></a>
             </div>
             <div class="link">
-              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dev.tanzeem@gmail.com"><img src="src/img/email.svg" alt="email"></a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dev.tanzeem@gmail.com"><img src="src/img/email.svg" alt="email"></a>
             </div>
           </div>
         </div>
