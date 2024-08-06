@@ -1,5 +1,5 @@
 let typed = new Typed('.auto-type', {
-  strings: ['a frontend developer', 'a UI designer', 'a skilled engineer'],
+  strings: ['web developement', 'react', 'UI/UX'],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true,
