@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   resizeCanvas();
 
   var particles = [];
-  var particleCount = Math.min(100, (canvas.width * canvas.height) / 10000); // Adjust based on screen size
+  var particleCount = Math.min(20, (canvas.width * canvas.height) / 10000); // Adjust based on screen size
   var maxVelocity = 2;
   var targetFPS = 60;
   var connectDistance = 150;
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     currentTargetIndex: 0,
     x: 0,
     y: 0,
-    speed: 4,
+    speed: 3,
   };
   var endParticle = {
     x: Math.random() * canvas.width,

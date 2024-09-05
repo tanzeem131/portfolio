@@ -1,6 +1,6 @@
 .hero-section {
   overflow: hidden;
-  background-image: radial-gradient(#ff8a00, #e52e71);
+  background-size: cover;
 }
 
 .container {
@@ -27,30 +27,12 @@
 }
 
 .title {
-  font-family: 'Cinzel', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 200;
   color: white;
-  font-size: 70px;
+  font-size: 150px;
   text-transform: none;
-
-  text-shadow: -1px -1px 0 #59ff00, 1px -1px 0 #59ff00, -1px 1px 0 #59ff00,
-    1px 1px 0 #59ff00;
-
-  background: conic-gradient(from 135deg at top, #fff 90deg, #59ff00 0),
-    conic-gradient(from -45deg at bottom, #fff 90deg, #59ff00 0),
-    conic-gradient(from 135deg at top, #59ff00 90deg, #0000 0),
-    conic-gradient(from -45deg at bottom, #59ff00 90deg, #0000 0);
-  -webkit-background-clip: text, text, padding-box, padding-box;
-  background-clip: text, text, padding-box, padding-box;
-  background-size: 230% 50%;
-  background-position: top right, bottom right;
-  background-repeat: no-repeat;
-  transition: 1s linear;
-}
-
-.title:hover {
-  background-position: top left, bottom left;
 }
 
 .iama {
@@ -78,7 +60,7 @@
 
 .details a:hover {
   background-color: #59ff00;
-  color: #ff8a00;
+  color: var(--black-dark);
 }
 
 .auto-type {
@@ -91,7 +73,7 @@
 }
 
 .text {
-  line-height: 50px;
+  line-height: 100px;
 }
 
 @media (width<600px) {
@@ -107,7 +89,6 @@
     align-items: center;
     position: relative;
     width: 100%;
-    background-image: radial-gradient(#ff8a00, #e52e71);
     overflow: hidden;
   }
 
@@ -125,7 +106,7 @@
     font-style: normal;
     font-weight: 600;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     text-transform: none;
   }
 

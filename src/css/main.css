@@ -14,11 +14,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  background-color: #f6e4d1;
+  background-color: var(--black-dark);
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-

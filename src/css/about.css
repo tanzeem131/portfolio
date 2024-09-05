@@ -18,6 +18,8 @@
 
 .about-me-container {
   position: relative;
+  padding: 50px;
+  background-color: var(--black-light);
 }
 
 .aboutMe {
@@ -44,7 +46,7 @@
   bottom: 0;
   width: 80%;
   height: 90%;
-  background-color: #d2baa1;
+  background-color: var(--yellow-dark);
 }
 
 .about-me-img-paragraph-container .about-me-image .black-image {
@@ -53,7 +55,7 @@
   bottom: 5%;
   height: 90%;
   width: 80%;
-  filter: sepia(100%);
+  filter: grayscale(100%);
 }
 
 .about-me-img-paragraph-container .about-me-image .black-image img {
@@ -71,6 +73,8 @@
   -webkit-box-shadow: #000000 0px 20px 40px 0px;
   -moz-box-shadow: #000000 0px 20px 40px 0px;
   transition: all 0.2s ease-out;
+  border: 2px solid var(--yellow-dark);
+  border-radius: 10px;
 }
 
 .main-image:hover {
@@ -100,9 +104,10 @@
 }
 
 .about-me-content .paragraph {
-  font-weight: 600;
+  font-weight: 100;
   font-size: 20px;
-  color: black;
+  font-style: italic;
+  color: white;
 }
 
 @media (width <= 330px) {
@@ -145,7 +150,7 @@
   .about-me-content .paragraph {
     font-weight: 280;
     font-size: 10px;
-    color: black;
+    color: white;
   }
 }
 
@@ -188,11 +193,11 @@
   .about-me-content .paragraph {
     font-weight: 400;
     font-size: 18px;
-    color: black;
-    text-align:justify;
+    color: white;
+    text-align: justify;
   }
   .about-me-section .container-section {
-    padding: 40px 40px;
+    padding: 0px 0px;
   }
 }
 
@@ -232,7 +237,7 @@
   .about-me-content .paragraph {
     font-weight: 300;
     font-size: 10px;
-    color: black;
+    color: white;
   }
 }
 
@@ -267,6 +272,7 @@
     flex-direction: column;
     align-items: center;
     flex: 0 0 40%;
+    color: white;
   }
 
   .about-me-content .paragraph {
@@ -312,7 +318,7 @@
   .about-me-content .paragraph {
     font-weight: 400;
     font-size: 15px;
-    color: black;
+    color: white;
   }
 }
 
@@ -352,7 +358,7 @@
   .about-me-content .paragraph {
     font-weight: 420;
     font-size: 17px;
-    color: black;
+    color: white;
   }
 }
 
@@ -392,7 +398,7 @@
   .about-me-content .paragraph {
     font-weight: 480;
     font-size: 18px;
-    color: black;
+    color: white;
   }
 }
 
