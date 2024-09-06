@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var maxVelocity = 2;
   var targetFPS = 60;
   var connectDistance = 150;
-  var lineColor = '#f6e4d1';
-  var specialParticleColor = '#59ff00';
+  var lineColor = 'gray';
+  var specialParticleColor = '#a9ff03';
 
   // Special particle
   var specialParticle = {

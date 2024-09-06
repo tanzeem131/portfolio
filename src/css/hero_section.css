@@ -27,25 +27,27 @@
 }
 
 .title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  font-weight: 200;
+  font-family: 'Handjet', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   color: white;
   font-size: 150px;
   text-transform: none;
+  font-variation-settings: 'ELGR' 1, 'ELSH' 2;
 }
 
 .iama {
   font-style: normal;
-  font-family: 'Cinzel', sans-serif;
-  font-weight: 450;
+  font-family: 'Handjet', sans-serif;
+  font-weight: 300;
   color: white;
   font-size: 40px;
   text-transform: none;
 }
 
 .details a {
-  border: 2px solid #59ff00;
+  border: 2px solid var(--green-dark);
   color: white;
   background-color: transparent;
   padding: 10px 20px;
@@ -59,12 +61,12 @@
 }
 
 .details a:hover {
-  background-color: #59ff00;
+  background-color: var(--green-dark);
   color: var(--black-dark);
 }
 
 .auto-type {
-  color: #59ff00;
+  color: var(--green-dark);
   font-family: 'Cinzel', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -102,11 +104,11 @@
   }
 
   .title {
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Handjet', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: none;
   }
 
@@ -119,7 +121,7 @@
   }
 
   .auto-type {
-    color: #59ff00;
+    color: var(--green-dark);
     font-weight: 600;
   }
 
