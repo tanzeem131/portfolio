@@ -69,7 +69,7 @@
   color: var(--green-dark);
   font-family: 'Cinzel', sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
@@ -108,7 +108,7 @@
     font-style: normal;
     font-weight: 500;
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     text-transform: none;
   }
 
@@ -116,16 +116,17 @@
     font-style: normal;
     font-weight: 400;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: none;
   }
 
   .auto-type {
     color: var(--green-dark);
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 30px;
   }
 
   .text {
-    line-height: 50px;
+    line-height: 70px;
   }
 }
