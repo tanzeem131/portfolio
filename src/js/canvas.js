@@ -12,9 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var particles = [];
   var particleCount = Math.min(20, (canvas.width * canvas.height) / 10000); // Adjust based on screen size
   var maxVelocity = 2;
-  var targetFPS = 60;
   var connectDistance = 150;
-  var lineColor = 'gray';
+  var lineColor = 'white';
   var specialParticleColor = '#a9ff03';
 
   // Special particle

@@ -23,7 +23,8 @@
   padding-left: 100%;
   animation: scroll-text 3s linear infinite;
   font-size: 25px;
-  color: white;
+  font-weight: 500;
+  color: var(--yellow-dark);
 }
 
 @keyframes scroll-text {
@@ -63,8 +64,8 @@
 }
 
 .nav .nav-links a:hover {
-  color: #ff8a00;
-  font-weight: 800;
+  color: var(--yellow-dark);
+  font-weight: 300;
   background: transparent;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -97,7 +98,7 @@
   .nav .nav-btn {
     display: inline-block;
     position: absolute;
-    background-color: #ff8a00;
+    background-color: var(--yellow-dark);
     right: 0px;
     margin: 18px 2px;
   }
@@ -109,7 +110,7 @@
   }
   .nav .nav-btn label:hover,
   .nav #nav-check:checked ~ .nav-btn label {
-    background-color: #ff8a00;
+    background-color: var(--yellow-dark);
   }
   .nav .nav-btn label span {
     display: block;

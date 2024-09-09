@@ -6,8 +6,8 @@
 
 .skill-title {
   font-size: 55px;
-  font-weight: 700;
-  color: #ff8a00;
+  font-weight: 500;
+  color: var(--yellow-dark);
 }
 
 .skills-container {
@@ -32,30 +32,37 @@
 .skills .img-div {
   height: max;
   width: 100px;
-  border-radius: 20px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--yellow-dark);
 }
 
 .flex-div {
   color: var(--green-dark);
 }
-
+.flex-div h1 {
+  font-size: 25px;
+  font-weight: 200;
+}
 .skills .img-div img {
   width: 100%;
   height: 80px;
   object-fit: scale-down;
   padding: 10px;
+  filter: grayscale(100%);
+}
+
+.skills .img-div img:hover {
+  filter: grayscale(0%);
 }
 
 .skills .logo-name {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--black-dark);
+  color: white;
   font-size: 14px;
 }
 
@@ -69,7 +76,7 @@
   .skill-title {
     font-size: 30px;
     font-weight: 500;
-    color: #ff8a00;
+    color: var(--yellow-dark);
   }
 
   .skills-container {

@@ -10,8 +10,8 @@
 
 .projects-title {
   font-size: 55px;
-  font-weight: 700;
-  color: #ff8a00;
+  font-weight: 500;
+  color: var(--yellow-dark);
   text-align: center;
   margin-bottom: 50px;
 }
@@ -35,7 +35,7 @@
   transform: scale(1.05);
 }
 .hidden-project-name a:hover {
-  color: #ff8a00;
+  color: var(--yellow-dark);
 }
 .projects .projects-img-div img {
   width: 450px;
@@ -51,7 +51,7 @@
 }
 
 .hidden-project-name {
-  background-color: #ff8a00;
+  background-color: var(--yellow-dark);
   text-align: center;
   align-items: center;
 }
@@ -96,7 +96,7 @@
   .projects-title {
     font-size: 30px;
     font-weight: 500;
-    color: #ff8a00;
+    color: var(--yellow-dark);
     text-align: center;
     margin-bottom: 0px;
     margin-top: 40px;
@@ -126,7 +126,7 @@
   .projects-title {
     font-size: 30px;
     font-weight: 500;
-    color: #ff8a00;
+    color: var(--yellow-dark);
     text-align: center;
     margin-bottom: 50px;
   }

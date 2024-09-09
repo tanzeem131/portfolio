@@ -3,6 +3,7 @@
   padding-inline: 100px;
   position: relative;
 }
+
 .about-me-section img {
   width: 100%;
   -o-object-fit: cover;
@@ -24,8 +25,8 @@
 
 .aboutMe {
   font-size: 55px;
-  font-weight: 700;
-  color: #ff8a00;
+  font-weight: 500;
+  color: var(--yellow-dark);
 }
 
 .about-me-img-paragraph-container {
@@ -51,49 +52,14 @@
 
 .about-me-img-paragraph-container .about-me-image .black-image {
   position: absolute;
-  left: 5%;
-  bottom: 5%;
+  left: 3%;
+  bottom: 3%;
   height: 90%;
   width: 80%;
-  filter: grayscale(100%);
 }
 
 .about-me-img-paragraph-container .about-me-image .black-image img {
   height: 100%;
-}
-
-.about-me-img-paragraph-container .about-me-image .main-image {
-  width: 60%;
-  height: 60%;
-  overflow: hidden;
-  position: absolute;
-  left: 28%;
-  top: 13%;
-  box-shadow: #000000 0px 20px 40px 0px;
-  -webkit-box-shadow: #000000 0px 20px 40px 0px;
-  -moz-box-shadow: #000000 0px 20px 40px 0px;
-  transition: all 0.2s ease-out;
-  border: 2px solid var(--yellow-dark);
-  border-radius: 10px;
-}
-
-.main-image:hover {
-  transform-origin: top center;
-  transform: scale(1.5);
-  border-radius: 25px;
-}
-
-.main-image img {
-  transform-origin: center center;
-  transform: scale(2);
-  -o-object-fit: cover;
-  object-fit: cover;
-  -webkit-object-fit: cover;
-  transition: all 0.2s ease-out;
-}
-
-.main-image img:hover {
-  transform: scale(1);
 }
 
 .about-me-content {
@@ -148,7 +114,7 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 280;
+    font-weight: 180;
     font-size: 10px;
     color: white;
   }
@@ -191,7 +157,7 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 400;
+    font-weight: 100;
     font-size: 18px;
     color: white;
     text-align: justify;
@@ -235,7 +201,7 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 300;
+    font-weight: 100;
     font-size: 10px;
     color: white;
   }
@@ -276,9 +242,9 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 350;
+    font-weight: 150;
     font-size: 13px;
-    color: black;
+    color: white;
   }
 }
 
@@ -316,7 +282,7 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 400;
+    font-weight: 100;
     font-size: 15px;
     color: white;
   }
@@ -356,7 +322,7 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 420;
+    font-weight: 120;
     font-size: 17px;
     color: white;
   }
@@ -396,7 +362,7 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 480;
+    font-weight: 180;
     font-size: 18px;
     color: white;
   }
@@ -436,8 +402,8 @@
   }
 
   .about-me-content .paragraph {
-    font-weight: 500;
+    font-weight: 100;
     font-size: 20px;
-    color: black;
+    color: white;
   }
 }

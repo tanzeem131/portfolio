@@ -32,7 +32,10 @@
   font-weight: 300;
   font-style: normal;
   color: white;
-  font-size: 150px;
+  white-space: wrap;
+  padding-inline: 20px;
+  margin-top: 20px;
+  font-size: 200px;
   text-transform: none;
   font-variation-settings: 'ELGR' 1, 'ELSH' 2;
 }
@@ -75,7 +78,7 @@
 }
 
 .text {
-  line-height: 100px;
+  line-height: 150px;
 }
 
 @media (width<600px) {

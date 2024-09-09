@@ -19,8 +19,8 @@
   padding: 8% 5% 10% 5%;
 }
 #contact .contact-links {
-  background-color: var(--green-dark);
   border-radius: 10px 0 0 10px;
+  border: 2px solid var(--green-dark);
 }
 #contact .contact-form-wrapper {
   background-color: var(--black-light);
@@ -34,7 +34,7 @@
   text-align: center;
   transform: scale(0.95, 1);
   color: transparent;
-  -webkit-text-stroke: 2px var(--black-dark);
+  -webkit-text-stroke: 2px var(--green-dark);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -51,7 +51,7 @@
 #contact img {
   width: 45px;
   height: 45px;
-  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
+  filter: hue-rotate(220deg) drop-shadow(4px 4px 6px var(--green-dark));
   transition: 0.2s;
   user-select: none;
 }
@@ -60,7 +60,8 @@
 }
 #contact img:active {
   transform: scale(1.1, 1.1);
-  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
+  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px var(--green-dark))
+    sepia(0.3);
 }
 #contact .form-item {
   position: relative;
@@ -133,11 +134,11 @@ textarea:valid + label {
   }
 
   .contact-links {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
   }
 
   .contact-form-wrapper {
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
   }
 }
 @media only screen and (max-width: 500px) {
