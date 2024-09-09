@@ -10,6 +10,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .details {
@@ -73,39 +74,146 @@
   font-family: 'Cinzel', sans-serif;
   font-style: normal;
   font-weight: 400;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 .text {
   line-height: 150px;
 }
 
+@media (width<1805px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 180px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
+@media (width<1650px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 160px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
+@media (width<1460px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 140px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
+@media (width<1300px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 115px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
+@media (width<1050px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 100px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
+@media (width<930px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 80px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
+@media (width<760px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 60px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+  }
+}
+
 @media (width<600px) {
-  .hero-section {
-    overflow: hidden;
-    width: 100%;
-    padding-inline: 0px;
-  }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    cursor: default;
-  }
-
   .title {
     font-family: 'Handjet', sans-serif;
     font-style: normal;
@@ -122,14 +230,33 @@
     font-size: 30px;
     text-transform: none;
   }
+}
+
+@media (width<500px) {
+  .title {
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+    text-transform: none;
+  }
+
+  .iama {
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    text-transform: none;
+  }
 
   .auto-type {
     color: var(--green-dark);
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .text {
-    line-height: 70px;
+    line-height: 50px;
   }
 }
