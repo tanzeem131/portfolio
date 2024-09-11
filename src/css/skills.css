@@ -18,6 +18,7 @@
   gap: 50px;
   padding-block: 40px;
   background-color: var(--black-light);
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
 }
 
 .logo-with-name {
@@ -126,7 +127,7 @@
     gap: 15px;
   }
   .logo-with-name {
-    width: max;
+    width: 100%;
     padding-block: 40px;
     color: var(--black-dark);
   }

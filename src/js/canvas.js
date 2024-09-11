@@ -23,50 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
     y: 0,
     speed: 3,
   };
-  var endParticle = {
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height,
-    color: '#00ff00',
-  };
-  var path = [];
-
-  function findPath() {
-    // Reset current path
-    path = [];
-
-    var current = {
-      x: specialParticle.x,
-      y: specialParticle.y,
-    };
-
-    while (distance(current, endParticle) > connectDistance) {
-      var closestDistance = Infinity;
-      var closestParticle = null;
-
-      for (var i = 0; i < particles.length; i++) {
-        var p = particles[i];
-        var dist = distance(p, current);
-        if (dist < closestDistance && dist <= connectDistance) {
-          closestDistance = dist;
-          closestParticle = p;
-        }
-      }
-
-      if (closestParticle) {
-        path.push(closestParticle);
-        current = closestParticle;
-      } else {
-        break;
-      }
-    }
-
-    path.push(endParticle); // Add end particle as final target
-  }
-  function distance(a, b) {
-    var dx = a.x - b.x;
-    var dy = a.y - b.y;
-    return Math.sqrt(dx * dx + dy * dy);
-  }
 
   function createParticles() {
     for (var i = 0; i < particleCount; i++) {
